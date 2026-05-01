@@ -1,3 +1,242 @@
-*{
- background: rgb(241, 230, 230);
+body{
+    background-color: #201313;
+}
+.lol{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    padding-right: 20px;
+}
+.lopp{
+    background-color: #CE2D2D;
+    color: white;
+    border-radius: 20px;
+    height: 50pox;
+    width: 150px;
+}
+.kaniva{
+    color: RGB(250, 249,249);
+}
+.thought{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Ro;
+}
+.lpp{
+    color: #fff;
+}
+.main {
+    color: RGB(250, 249, 249);
+    padding-right: 270px;
+    padding-left: 250px;
+    margin-top: 180px;
+    font-size: 55px;
+    font-weight: 500px;
+    font-family: "Roboto", sans-serif;
+}
+
+    .h1{
+    color: white;
+    font-size: 27px;
+    font-family: PPMori (woff2);
+    margin-top: 10px;
+}
+
+.yellow{
+    color: yellow;
+}
+
+.nav-buttons{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-top: 5px;
+    padding-right: 270px;
+    padding-left: 250px;
+}
+
+.nav-btn{
+    padding: 8px 18px;
+    border-radius: 20px;
+    border: 1px solid #555;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.nav-btn.active{
+    background-color: #ffd84d;
+    color: #000;
+    border:black 1px solid;
+    font-weight: bold;
+}
+[12:34 pm, 01/05/2026] +234 907 165 3863: .obb {
+    color: #bbb;
+    text-decoration: underline dotted;
+    font-size: 20px;
+    background-color: #201313;
+}
+
+.class {
+    color: white;
+    font-size: 39px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    padding-left: 250px;
+    padding-right: 270px;
+}
+
+.jog {
+    color: white;
+    font-family: PPMori(woff2);
+    font-size: 27px;
+    font-weight: 400px;
+    padding-left: 250px;
+    padding-right: 270px;
+    margin-top: -30px;
+}
+.pop {
+    color: white;
+    font-family: PPMori(woff2);
+    font-size: 20px;
+    font-weight: 400px;
+    padding-left: 250px;
+    margin-top: -15px;
+    font-family: "Roboto", sans-serif;
+}
+.dop{
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    padding-left: 250px;
+    font-family: "Roboto", sans-serif;
+}
+.good{
+    background-color: #2F1C1C;
+    color: white;
+    height: 280px;
+    width: 900px;
+    font-family: PPMori(woff2);
+    font-size: 40px;
+    font-weight: 400px;
+    margin-left: 250px;
+    margin-top: 100px;
+    padding-top: 20px;
+}
+.gool{
+    color: white;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    padding-left: 40px;
+    font-weight: 700;
+    margin-right: 40px;
+    padding-right: 200px;
+}
+.coming{
+    color: white;
+    text-align: left;
+    font-family: consolas;
+    padding-left: 70px;
+    font-weight: 400;
+    margin-right: 40px;
+    padding-right: 200px;
+    font-size: 18px;
+    margin-top:-20;
+}
+
+.Iod{
+    background-color: #cc3333;
+    color: white;
+    height: 90px;
+    width: 150px;
+    margin-left: 700px;
+    border-radius: 30px;
+    font-family: consolas;
+    font-size: 20px;
+    border-color: #ff6666;
+}
+.who{
+    color: white;
+    padding-left: 20px;
+    padding-top: 40px;
+    font-size: 25px;
+    padding-right: 10px;
+}
+.nod{
+    color: white;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+}
+.under{
+    color: yellow;
+    font-size: 20px;
+    padding-left: 650px;
+    padding-top: 30px;
+    word-spacing: 10px ;
+}
+    [12:58 pm, 01/05/2026] Little Precious: .link{
+    color: white;
+    font-size: 20px;
+    text-decoration: underline dotted;
+}
+.footer{
+    padding: 60px 5px 40px;
+    position: relative;
+}
+.footer-content{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.footer-links h3{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+ .footer-links a{
+    color: #bbb;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.3s ease;
+}
+.footer {
+    background: linear-gradient(to bottom, #2c1e3a, #000);
+    padding: 60px 5% 40px;
+    position: relative;
+}
+/* Main Footer Content */
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+     
+
 }
